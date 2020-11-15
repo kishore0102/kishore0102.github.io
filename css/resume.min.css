@@ -4,6 +4,27 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+
+/* Icon Box */
+
+.icon-box {
+    text-align: center;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.icon-box:last-child {
+    margin-right: 0;
+}
+
+.icon-box i {
+    font-size: 60px;
+}
+
+.icon-box p {
+    color: #40424a;
+}
+
 .divOuter {
     display: inline-block;
     text-align: center;
@@ -138,6 +159,16 @@ section.resume-section {
     padding-bottom: 5rem !important;
 }
 
+section.portfolio-section {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+section.portfolio-section .resume-item .resume-date {
+    min-width: none;
+}
+
 section.resume-section .resume-item .resume-date {
     min-width: none;
 }
@@ -153,6 +184,22 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
     section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    section.portfolio-section {
+        min-height: 100vh;
+    }
+    section.portfolio-section {
+        min-width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section.portfolio-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important;
     }
